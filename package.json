@@ -1,14 +1,14 @@
 {
-  "name": "rework-npm",
+  "name": "rework-npm2",
   "version": "1.0.0",
-  "description": "Import CSS from npm modules using rework",
+  "description": "Import CSS from npm modules using rework, optionally with custom resolver",
   "main": "index.js",
   "scripts": {
     "test": "tap test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reworkcss/rework-npm.git"
+    "url": "https://github.com/lordofthelake/rework-npm2.git"
   },
   "keywords": [
     "rework",
@@ -18,10 +18,10 @@
     "npm",
     "modules"
   ],
-  "author": "Conrad Zimmerman <me@conradz.com>",
+  "author": ["Conrad Zimmerman <me@conradz.com>", "Michele Piccirillo (http://github.com/lordofthelake)"],
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/reworkcss/rework-npm/issues"
+    "url": "https://github.com/lordofthelake/rework-npm2/issues"
   },
   "devDependencies": {
     "convert-source-map": "^0.3.4",

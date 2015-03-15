@@ -60,7 +60,7 @@ function reworkNPM(opts) {
         var source = rule.position.source;
         var dir = source ? path.dirname(path.resolve(root, source)) : root;
 
-        var file = resolve.sync(name, {
+        var file = opts.resolver ? opts.resolver(name, dir) : resolve.sync(name, {
             basedir: dir,
             extensions: ['.css'],
             packageFilter: processPackage
